@@ -1,8 +1,8 @@
 body{
     display: grid;
     grid-template-columns: 0.8fr 1fr 1fr 1fr;
-    grid-template-rows: 0.5fr 2.5fr 2.5fr 0.5fr;
-    /*background-color: #80D088;*/
+    grid-template-rows: 0.5fr 2.5fr 2.5fr 1fr;
+    background-color: #80D088;
     /*background-image: url(./img/key-ime-pie_img.jpg);
     background-repeat: no-repeat;
     background-size: cover;*/
@@ -21,7 +21,7 @@ header{
     /*border: 2px solid green;*/
     margin: 20px;
     color: #1f630e;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .Ingredienser{
@@ -31,7 +31,7 @@ header{
     /*border: 2px solid green;*/
     padding: 10px;
     margin: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
 
     /*display: flex;
     justify-content: space-around;
@@ -44,7 +44,9 @@ header{
     background-color: white;
     /*border: 2px solid green;*/
     margin: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
 }
 
 .Fakta{
@@ -54,7 +56,7 @@ header{
     background-color: white;
     /*border: 2px solid green;*/
     margin: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .Bild1{
@@ -65,7 +67,7 @@ header{
     margin: 20px;
     background-position: center;
     background-size: 100% 100%;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 .Bild2{
     grid-column: 3/4;
@@ -75,7 +77,7 @@ header{
     margin: 20px;
     background-position: center;
     background-size: 100% 100%;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 .Bild3{
     grid-column: 4/5;
@@ -85,20 +87,32 @@ header{
     margin: 20px;
     background-position: center;
     background-size: 100% 100%;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 footer{
     grid-column: 1/5;
     grid-row: 4/5;
-    text-align: center;
     background-color: white;
     /*border: 2px solid green;*/
     padding: 15px;
     margin: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 a{
     text-decoration: none;
     color: green;
+}
+.Vänster{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.Mitten{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
