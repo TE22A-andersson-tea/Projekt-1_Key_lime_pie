@@ -1,7 +1,7 @@
 body{
     display: grid;
     grid-template-columns: 0.8fr 1fr 1fr 1fr;
-    grid-template-rows: 0.5fr 2.5fr 2.5fr 1fr;
+    grid-template-rows: 0.5fr 1.8fr 1.4fr 0.8fr;
     background-color: #80D088;
     /*background-image: url(./img/key-ime-pie_img.jpg);
     background-repeat: no-repeat;
@@ -89,12 +89,13 @@ footer{
     grid-column: 1/5;
     grid-row: 4/5;
     background-color: white;
-    padding: 20px;
+    padding: 15px;
     margin: 20px;
     border-radius: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    color: #1f630e;
 }
 a{
     text-decoration: none;
@@ -105,16 +106,31 @@ a{
     flex-direction: column;
     align-content: center;
     gap: 10px;
+    border: 2px solid #1f630e;
+    margin: 5px;
+    padding: 15px;
+    padding-top: 5px;
+    border-radius: 10px;
 }
 .Mitten{
     display: flex;
     flex-direction: column;
     align-content: center;
     gap: 10px;
+    border: 2px solid #1f630e;
+    margin: 5px;
+    padding: 15px;
+    padding-top: 5px;
+    border-radius: 10px;
 }
-.Häger{
+.Höger{
     display: flex;
     flex-direction: column;
     align-content: center;
     gap: 10px;
+    border: 2px solid #1f630e;
+    margin: 5px;
+    padding: 15px;
+    padding-top: 5px;
+    border-radius: 10px;
 }
