@@ -1,7 +1,7 @@
 body{
     display: grid;
     grid-template-columns: 0.8fr 1fr 1fr 1fr;
-    grid-template-rows: 0.5fr 1.8fr 1.4fr 0.8fr;
+    grid-template-rows: 0.5fr 1.8fr 1.2fr 0.8fr;
     background-color: #80D088;
     /*background-image: url(./img/LimePie-bakrund.jpg);
     background-repeat: no-repeat;
@@ -28,7 +28,7 @@ header{
     grid-column: 2/4;
     grid-row: 1/2;
     text-align: center;
-    background-color: #fcf6e1;
+    background-color: #def578;
     margin: 20px;
     color: #1f630e;
     border-radius: 10px;
@@ -45,7 +45,9 @@ header{
     margin: 20px;
     border-radius: 10px;
     border: 3px solid #46cf27;
+    margin-bottom: 100px;
 }
+
 
 li{
     margin-top: 30px;
@@ -54,20 +56,32 @@ li{
 .Instruktioner{
     grid-column: 2/4;
     grid-row: 2/3;
-    background-color: white;
+    /*background-color:rgb(255, 255, 255);*/
+    background-color: #1f630e;
     margin: 20px;
     border-radius: 10px;
     padding: 5px;
     padding-bottom: 10px;
-    text-align: center;
+    /* text-align: center; */
     border: 3px solid #46cf27;
+}
+
+.Instruktioner > ol, .Instruktioner > h2{ 
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+#imgredskap{
+    height: 100px;
+    width: 200px;
 }
 
 .Fakta{
     grid-column: 4/5;
     grid-row: 2/3;
     text-align: center;
-    background-color:white;
+    background-color:rgb(245, 245, 211);
     margin: 40px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -106,7 +120,7 @@ li{
 footer{
     grid-column: 1/5;
     grid-row: 4/5;
-    background-color: white;
+    background-color:#eaf7ad;
     padding: 15px;
     margin: 20px;
     border-radius: 10px;
@@ -132,4 +146,5 @@ a{
     border-radius: 10px;
     padding-right: 60px;
     padding-left: 60px;
+    background-color:rgb(245, 245, 211);
 }
