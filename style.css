@@ -28,7 +28,7 @@ header{
     grid-column: 2/4;
     grid-row: 1/2;
     text-align: center;
-    background-color: white;
+    background-color: #fcf6e1;
     margin: 20px;
     color: #1f630e;
     border-radius: 10px;
@@ -44,6 +44,7 @@ header{
     padding: 10px;
     margin: 20px;
     border-radius: 10px;
+    border: 3px solid #46cf27;
 }
 
 li{
@@ -59,20 +60,24 @@ li{
     padding: 5px;
     padding-bottom: 10px;
     text-align: center;
+    border: 3px solid #46cf27;
 }
 
 .Fakta{
     grid-column: 4/5;
     grid-row: 2/3;
     text-align: center;
-    background-color: white;
+    background-color:white;
     margin: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     border-radius: 10px;
+    border: 3px solid #1f630e;
 }
 
  #fem{
-    height: 80px; 
-    width: 200px; 
+    height: 120px; 
+    width: 170px; 
 }
 
 .Bild1, .Bild2, .Bild3{
