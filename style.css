@@ -3,10 +3,8 @@ body{
     grid-template-columns: 0.8fr 1fr 1fr 1fr;
     grid-template-rows: 0.5fr 1.8fr 1.2fr 0.8fr;
     background-color: #80D088;
-    /*background-image: url(./img/LimePie-bakrund.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;*/
 }
+
 
 h2{
     text-align: center;
@@ -75,6 +73,8 @@ li{
 #imgredskap{
     height: 100px;
     width: 200px;
+    padding-left: 60px;
+    
 }
 
 .Fakta{
@@ -139,7 +139,7 @@ a{
     flex-direction: column;
     align-content: center;
     
-    border: 2px solid #1f630e;
+    border: 2px dotted #1f630e;
     margin: 5px;
     padding-bottom: 10px;
     padding-top: 0px;
